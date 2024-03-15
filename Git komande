@@ -1,0 +1,29 @@
+cd "ime repozitorijuma"- da odemo u repository
+
+ls- da vidimo sadrzaj foldera
+
+git status - pokazuje sta je novo u folderu, sta nije sacuvano itd
+
+git add "ime fajla" - git onda zna da treba da prati i taj fajl
+
+git add. - git onda prati sve dodate i izmenjene fajlove
+
+git commit -m "Naslov commita -m "Opis promene" - cuvamo napraveljene promene i dajemo im naslov i deskripciju 
+
+git push - kacimo promenjen fajl na remote repository gde nam je projekat hostovan
+
+git init - od lokalnog fajla kreiramo git repository
+
+git remote- postavljanje negde da nije ovaj racunar
+
+git remote add origin link repozitorijuma - dodavanje reference na remote repository na githabu
+
+git remote -v - prikazuje sve remote repozitorijume koji su povezani na ovaj lokalni repo
+
+git push -u origin master
+
+git branch - prikazuje u kom smo branchu
+
+git checkout -b ime novog brancha - pravi novi branch 
+
+gir push -u origin "ime brancha" - pravi novi branch na githabu
